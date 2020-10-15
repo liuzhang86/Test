@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future<void> platformVersion () async{
-    var vers =  await FlutterHelloPlugin.platformVersion;
+    String vers =  await FlutterHelloPlugin.platformVersion;
     print(vers);
   }
 
